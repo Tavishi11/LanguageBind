@@ -28,7 +28,7 @@ def main():
         num_labels=len(labels),
         id2label=id2label,
         label2id=label2id,
-        use_safetensors=True
+        use_safetensors=False
     )
 
     # Apply LoRA

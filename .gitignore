@@ -2,4 +2,8 @@
 cache_dir
 languagebind
 .env
-*.pyc
+*.pycintention_estimation_module/deberta-v3-large/
+intention_estimation_module/checkpoints/
+intention_estimation_module/logs/
+intention_estimation_module/models/fine_tuned_classifier/
+model/classifier/

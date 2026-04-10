@@ -21,9 +21,8 @@ class IntentionClassifier:
             model_name,
             num_labels=len(self.task_labels),
             torch_dtype=torch.float16,
-            device_map="auto",
             trust_remote_code=True,
-            use_safetensors=True,
+            use_safetensors=False,
         )
 
         if peft_path:
