@@ -1,0 +1,34 @@
+{"prompt": "when does the man leave the car", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "when does the woman sit down", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "when does the dog jump over the fence", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "when does the person pick up the phone", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "show me when the ball is kicked", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "find the red cup on the table", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "on top of"}
+{"prompt": "locate the person behind the door", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "behind"}
+{"prompt": "detect the cat under the chair", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "under"}
+{"prompt": "find the blue bag on the shelf", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "on top of"}
+{"prompt": "where is the book on the desk", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "on top of"}
+{"prompt": "how many people are in the room", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "inside"}
+{"prompt": "how many cars are parked outside", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "what colour is the person's shirt", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "why did the vase fall off the table", "task_type": "question_answering", "complexity": "causal", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "what caused the person to stop walking", "task_type": "question_answering", "complexity": "causal", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "what happens after the woman picks up the phone", "task_type": "temporal_localisation", "complexity": "temporal", "temporal_context": "after", "spatial_context": "none"}
+{"prompt": "what happened before the door opened", "task_type": "temporal_localisation", "complexity": "temporal", "temporal_context": "before", "spatial_context": "none"}
+{"prompt": "count the number of chairs in the room", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "inside"}
+{"prompt": "identify the object on the left of the table", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "left of"}
+{"prompt": "show the person in front of the building", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "in front"}
+{"prompt": "show me when the door opens", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "when does the light turn on", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "when does she put down the bag", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "when does he start running", "task_type": "temporal_localisation", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "locate the dog behind the fence", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "behind"}
+{"prompt": "find the person on the left", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "on top of"}
+{"prompt": "detect the car in front of the building", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "in front"}
+{"prompt": "where is the umbrella", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "show the cup on the table", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "on top of"}
+{"prompt": "find the keys under the couch", "task_type": "object_detection", "complexity": "simple", "temporal_context": "none", "spatial_context": "under"}
+{"prompt": "how many bottles are on the shelf", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "on top of"}
+{"prompt": "what color is the car", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "why did the person fall", "task_type": "question_answering", "complexity": "causal", "temporal_context": "none", "spatial_context": "none"}
+{"prompt": "what is the person holding", "task_type": "question_answering", "complexity": "simple", "temporal_context": "none", "spatial_context": "none"}
