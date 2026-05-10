@@ -1,12 +1,21 @@
+"""
+models/pipeline.py
+"""
+
 import json
+import os
 from models.classifier import IntentionClassifier
 from models.fallback import MistralFallback
 
+MODEL_NAME = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "deberta-v3-large"
+)
 
 class IntentionPipeline:
     def __init__(self):
         self.classifier = IntentionClassifier(
-            model_name="microsoft/deberta-v3-large",
+            model_name=MODEL_NAME,                          # FIX: local path, not HuggingFace
             training_data_path="data/ground_truth.jsonl",
             peft_path="models/fine_tuned_classifier",
             confidence_threshold=0.4,
@@ -20,6 +29,8 @@ class IntentionPipeline:
         secondary_task       = task_pred.get("secondary_task_type", None)
         secondary_confidence = task_pred.get("secondary_confidence", 0.0)
 
+        # FIX: store result once — avoids double-call on borderline confidence
+        # FIX: pass task_type so per-class thresholds are actually used
         use_fallback     = self.classifier.should_use_fallback(confidence, task_type=task_type)
         task_type_spaced = task_type.replace("_", " ").lower()
 

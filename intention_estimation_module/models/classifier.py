@@ -1,48 +1,62 @@
 """
 models/classifier.py
-Fixes applied:
-- Load id2label/label2id from saved model config instead of re-reading the
-  training file at inference time. The new training normalizes labels to
-  underscores (object_detection, temporal_localisation, question_answering),
-  but _extract_unique_field read raw spaced strings from the JSONL, silently
-  producing a mismatched label2id and corrupting every prediction.
-- Removed device_map={"": 0} hardcode; use device_map="auto".
-- should_use_fallback now accepts task_type kwarg for per-class thresholds.
 """
 
+import os
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from peft import PeftModel
 import json
 
+MODEL_NAME = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "deberta-v3-large"
+)
 
 DEFAULT_THRESHOLDS = {
     "temporal_localisation": 0.35,
     "question_answering":    0.35,
-    "object_detection":      0.45,
+    "object_detection":      0.35,
 }
 
 
 class IntentionClassifier:
     def __init__(
         self,
-        model_name,
-        training_data_path,         # kept for API compatibility, no longer used for labels
+        model_name=MODEL_NAME,
+        training_data_path=None,    # kept for API compatibility, no longer used for labels
         peft_path=None,
         temps_path=None,
         confidence_threshold=0.4,
     ):
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=False)
         self.confidence_threshold = confidence_threshold
+
+        if peft_path and not os.path.isabs(peft_path):
+            # 1. Try absolute path relative to this file (classifier.py)
+            current_file_dir = os.path.dirname(os.path.abspath(__file__))
+            
+            # If peft_path is "models/fine_tuned_classifier", we only want the folder name
+            folder_name = os.path.basename(peft_path) 
+            abs_peft_path = os.path.join(current_file_dir, folder_name)
+            
+            if os.path.exists(abs_peft_path):
+                peft_path = abs_peft_path
+            else:
+                # 2. Fallback: Try the path as provided from the root
+                root_relative_path = os.path.abspath(peft_path)
+                if os.path.exists(root_relative_path):
+                    peft_path = root_relative_path
 
         base_model = AutoModelForSequenceClassification.from_pretrained(
             model_name,
             num_labels=3,
             torch_dtype=torch.float16,
-            device_map={"":0},
             trust_remote_code=True,
             use_safetensors=False,
         )
+        base_model = base_model.to(self.device)  # FIX: manual placement, device_map="auto" unsupported for DeBERTa v2
 
         if peft_path:
             self.model = PeftModel.from_pretrained(base_model, peft_path)
@@ -56,17 +70,6 @@ class IntentionClassifier:
 
         # Per-class confidence thresholds
         self.class_thresholds = {
-            'temporal_localisation': 0.35,
-            'question_answering':    0.35,
-            'object_detection':      0.40,
-        }
-
-        # FIX: Load label mapping from the config saved at training time.
-        # Previously _extract_unique_field re-read the raw training JSONL and
-        # built a mapping from un-normalized spaced labels, while the model was
-        # trained with normalized underscore labels — every prediction was wrong.
-
-        self.class_thresholds = {
             label: DEFAULT_THRESHOLDS.get(label, confidence_threshold)
             for label in self.task_labels
         }
@@ -76,8 +79,6 @@ class IntentionClassifier:
                 self.temperatures = json.load(f)
         else:
             self.temperatures = {label: 1.0 for label in self.task_labels}
-
-        self.device = next(self.model.parameters()).device
 
     def predict_task_type(self, text: str) -> dict:
         inputs = self.tokenizer(
