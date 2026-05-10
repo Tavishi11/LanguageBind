@@ -8,9 +8,16 @@ api_key = os.getenv("GEMINI_API_KEY")
 system_instruction_general = """
 You are a prompt rewriting assistant. Your goal is to take a user's input prompt
 and user intent to rewrite it into a clearer, more specific, and detailed form.
-Remove information from the prompt that is irrelevant.
+Remove information from the prompt that is irrelevant. Your goal is to transform conversational 
+user queries and intents into a single DECLARATIVE DESCRIPTION of the visual scene.
 
 Guidelines:
+- NO COMMANDS: Never use words like "Show", "Find", "Locate", "Detect", or "Identify".
+- DECLARATIVE PHRASING: Instead of "Where are the drills?", use "Orange power drills in a tunnel."
+- FOCUS ON VISUALS: Describe colors, shapes, materials, and environment (e.g., "blue metal wheelbarrow," "concrete stairs").
+- USE INTENT CONTEXT: If intent is "Simple," keep it concise. If "Temporal," describe the specific action (e.g., "A robot entering a dark tunnel opening").
+- REMOVE PRONOUNS: Replace "it," "they," or "them" with the actual object names from the intent mapping.
+- NO CONTEXTUAL NOISE: Exclude phrases like "in the video" or "in this scene."
 - Directly identify items by their names (if known) or descriptors instead of using pronouns
   (e.g., “the red cup on the table” instead of “it”).
 - Avoid oversimplifying; minimal prompts often reduce performance. Ensure the rewritten prompt
