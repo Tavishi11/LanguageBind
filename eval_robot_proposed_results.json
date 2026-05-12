@@ -1,0 +1,3080 @@
+[
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "how many drills are there",
+    "refined_prompt": "Drills.",
+    "intent": {
+      "prompt": "how many drills are there",
+      "task_type": "question answering",
+      "confidence": 0.3772,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3125,
+      "overall_confidence": 0.3448,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.06030741333961487
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "How many drills did you observe?",
+    "refined_prompt": "Power drills.",
+    "intent": {
+      "prompt": "How many drills did you observe?",
+      "task_type": "question answering",
+      "confidence": 0.366,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3235,
+      "overall_confidence": 0.3447,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.055892735719680786
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "What timestamps did are drills seen in the video",
+    "refined_prompt": "Location of drills.",
+    "intent": {
+      "prompt": "What timestamps did are drills seen in the video",
+      "task_type": "question answering",
+      "confidence": 0.3823,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3115,
+      "overall_confidence": 0.3469,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.11183537542819977
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "How many drills",
+    "refined_prompt": "Power drills",
+    "intent": {
+      "prompt": "How many drills",
+      "task_type": "question answering",
+      "confidence": 0.3765,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3132,
+      "overall_confidence": 0.3448,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.06370499730110168
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "Are there any drill-like objects in the scene? If so provide a time stamp. Provide your reasoning.",
+    "refined_prompt": "Location of drill-like objects.",
+    "intent": {
+      "prompt": "Are there any drill-like objects in the scene? If so provide a time stamp. Provide your reasoning.",
+      "task_type": "question answering",
+      "confidence": 0.3574,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3337,
+      "overall_confidence": 0.3456,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.12216087430715561
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "How many drills are seen in the journey?",
+    "refined_prompt": "The location of drills.",
+    "intent": {
+      "prompt": "How many drills are seen in the journey?",
+      "task_type": "question answering",
+      "confidence": 0.3643,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3242,
+      "overall_confidence": 0.3442,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.12305483222007751
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "how many fire extinguisher and drills in the video?",
+    "refined_prompt": "Fire extinguishers and drills.",
+    "intent": {
+      "prompt": "how many fire extinguisher and drills in the video?",
+      "task_type": "question answering",
+      "confidence": 0.3694,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3162,
+      "overall_confidence": 0.3428,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.07350803911685944
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "How many orange drills are present and at what time does the first drill appear",
+    "refined_prompt": "Orange power drills, one first becoming visible.",
+    "intent": {
+      "prompt": "How many orange drills are present and at what time does the first drill appear",
+      "task_type": "question answering",
+      "confidence": 0.3684,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3206,
+      "overall_confidence": 0.3445,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.07527370005846024
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "Give me a timestamp for the first orange drill that appears in the footage",
+    "refined_prompt": "An orange drill.",
+    "intent": {
+      "prompt": "Give me a timestamp for the first orange drill that appears in the footage",
+      "task_type": "question answering",
+      "confidence": 0.374,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3164,
+      "overall_confidence": 0.3452,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.06851933151483536
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "Where in the video stream do you see a drill, if there is a drill.",
+    "refined_prompt": "A drill.",
+    "intent": {
+      "prompt": "Where in the video stream do you see a drill, if there is a drill.",
+      "task_type": "question answering",
+      "confidence": 0.3633,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3247,
+      "overall_confidence": 0.344,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.07722589373588562
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "how many drills were there?",
+    "refined_prompt": "Power drills.",
+    "intent": {
+      "prompt": "how many drills were there?",
+      "task_type": "question answering",
+      "confidence": 0.3708,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3152,
+      "overall_confidence": 0.343,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.055892735719680786
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "how many drill in this video",
+    "refined_prompt": "Detect the drills.",
+    "intent": {
+      "prompt": "how many drill in this video",
+      "task_type": "question answering",
+      "confidence": 0.3792,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.314,
+      "overall_confidence": 0.3466,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.07234375178813934
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "How many drills can be seen in the video?",
+    "refined_prompt": "Multiple drills.",
+    "intent": {
+      "prompt": "How many drills can be seen in the video?",
+      "task_type": "question answering",
+      "confidence": 0.3623,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3269,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.007445689756423235
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "How many drills were detected?",
+    "refined_prompt": "Power drills.",
+    "intent": {
+      "prompt": "How many drills were detected?",
+      "task_type": "question answering",
+      "confidence": 0.3657,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3232,
+      "overall_confidence": 0.3445,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.055892735719680786
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "tell me how many drills do you see and where are they. are they in the same space?",
+    "refined_prompt": "The location of the drills.",
+    "intent": {
+      "prompt": "tell me how many drills do you see and where are they. are they in the same space?",
+      "task_type": "question answering",
+      "confidence": 0.3669,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3213,
+      "overall_confidence": 0.3441,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.11797633767127991
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "raw_query": "In the video footage how many orange drills were observed",
+    "refined_prompt": "Multiple orange drills.",
+    "intent": {
+      "prompt": "In the video footage how many orange drills were observed",
+      "task_type": "question answering",
+      "confidence": 0.3804,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3145,
+      "overall_confidence": 0.3474,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.02013343945145607
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "how many fire Extinguishers are there",
+    "refined_prompt": "Fire extinguishers.",
+    "intent": {
+      "prompt": "how many fire Extinguishers are there",
+      "task_type": "question answering",
+      "confidence": 0.3813,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3145,
+      "overall_confidence": 0.3479,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20079681277275085
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many fire extinguishers did you observe?",
+    "refined_prompt": "Location of fire extinguishers.",
+    "intent": {
+      "prompt": "How many fire extinguishers did you observe?",
+      "task_type": "question answering",
+      "confidence": 0.3669,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3206,
+      "overall_confidence": 0.3438,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.225450336933136
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many blue rope bundles are in the video",
+    "refined_prompt": "Blue rope bundles.",
+    "intent": {
+      "prompt": "How many blue rope bundles are in the video",
+      "task_type": "question answering",
+      "confidence": 0.3652,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.324,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.019769780337810516
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "how confident are you there are three?",
+    "refined_prompt": "Three objects.",
+    "intent": {
+      "prompt": "how confident are you there are three?",
+      "task_type": "question answering",
+      "confidence": 0.3723,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3171,
+      "overall_confidence": 0.3447,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.08560632914304733
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many fire extinguishers were seen",
+    "refined_prompt": "Fire extinguishers.",
+    "intent": {
+      "prompt": "How many fire extinguishers were seen",
+      "task_type": "question answering",
+      "confidence": 0.3757,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.314,
+      "overall_confidence": 0.3448,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20079681277275085
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "List every red object in order they are seen",
+    "refined_prompt": "A sequence of red objects.",
+    "intent": {
+      "prompt": "List every red object in order they are seen",
+      "task_type": "question answering",
+      "confidence": 0.374,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3147,
+      "overall_confidence": 0.3444,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.10868318378925323
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "how many times does a fire extinguisher appear in the journey?",
+    "refined_prompt": "A red fire extinguisher.",
+    "intent": {
+      "prompt": "how many times does a fire extinguisher appear in the journey?",
+      "task_type": "question answering",
+      "confidence": 0.3701,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3154,
+      "overall_confidence": 0.3428,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18994998931884766
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "are they are fire extinguishers in the video? If so provide a time stamp",
+    "refined_prompt": "Location of fire extinguishers.",
+    "intent": {
+      "prompt": "are they are fire extinguishers in the video? If so provide a time stamp",
+      "task_type": "question answering",
+      "confidence": 0.3823,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3105,
+      "overall_confidence": 0.3464,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.225450336933136
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "how many fire extinguishers are in the video and what are their timestamps",
+    "refined_prompt": "Red metal fire extinguishers.",
+    "intent": {
+      "prompt": "how many fire extinguishers are in the video and what are their timestamps",
+      "task_type": "question answering",
+      "confidence": 0.3704,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3208,
+      "overall_confidence": 0.3456,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17150580883026123
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many fire extinguishers are present in the footage",
+    "refined_prompt": "Fire extinguishers in the scene.",
+    "intent": {
+      "prompt": "How many fire extinguishers are present in the footage",
+      "task_type": "question answering",
+      "confidence": 0.3718,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3174,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.21753275394439697
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "fire extinguisher",
+    "refined_prompt": "A red fire extinguisher.",
+    "intent": {
+      "prompt": "fire extinguisher",
+      "task_type": "question answering",
+      "confidence": 0.3711,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.321,
+      "overall_confidence": 0.3461,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18994998931884766
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many fire extinguishers",
+    "refined_prompt": "Fire extinguishers.",
+    "intent": {
+      "prompt": "How many fire extinguishers",
+      "task_type": "question answering",
+      "confidence": 0.3684,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3237,
+      "overall_confidence": 0.3461,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20079681277275085
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How far into the video do you see a fire extinguisher",
+    "refined_prompt": "A fire extinguisher.",
+    "intent": {
+      "prompt": "How far into the video do you see a fire extinguisher",
+      "task_type": "question answering",
+      "confidence": 0.376,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.313,
+      "overall_confidence": 0.3445,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2091471552848816
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "tell me how many fire extinguishers do you see and where are they",
+    "refined_prompt": "Location of fire extinguishers.",
+    "intent": {
+      "prompt": "tell me how many fire extinguishers do you see and where are they",
+      "task_type": "question answering",
+      "confidence": 0.3828,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3103,
+      "overall_confidence": 0.3466,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.225450336933136
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "In the video footage how many fire extinguishers were observed",
+    "refined_prompt": "Location of fire extinguishers.",
+    "intent": {
+      "prompt": "In the video footage how many fire extinguishers were observed",
+      "task_type": "question answering",
+      "confidence": 0.3796,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3135,
+      "overall_confidence": 0.3466,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.225450336933136
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "how many fireextinguishers?",
+    "refined_prompt": "Fire extinguishers.",
+    "intent": {
+      "prompt": "how many fireextinguishers?",
+      "task_type": "question answering",
+      "confidence": 0.3718,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3162,
+      "overall_confidence": 0.344,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20079681277275085
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many Fire Extinguisher in the video",
+    "refined_prompt": "A Fire Extinguisher.",
+    "intent": {
+      "prompt": "How many Fire Extinguisher in the video",
+      "task_type": "question answering",
+      "confidence": 0.3762,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.313,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2091471552848816
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many fire extinguishers were there?",
+    "refined_prompt": "Fire extinguishers",
+    "intent": {
+      "prompt": "How many fire extinguishers were there?",
+      "task_type": "question answering",
+      "confidence": 0.364,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3254,
+      "overall_confidence": 0.3447,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18420618772506714
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "raw_query": "How many fire extinguishers were detected?",
+    "refined_prompt": "Fire extinguishers.",
+    "intent": {
+      "prompt": "How many fire extinguishers were detected?",
+      "task_type": "question answering",
+      "confidence": 0.366,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3232,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20079681277275085
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Do you encounter a path blocked by rocks?",
+    "refined_prompt": "Rocks blocking a path.",
+    "intent": {
+      "prompt": "Do you encounter a path blocked by rocks?",
+      "task_type": "question answering",
+      "confidence": 0.373,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3164,
+      "overall_confidence": 0.3447,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.200439915060997
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Do I encounter a path blocked by rocks?",
+    "refined_prompt": "A path blocked by rocks.",
+    "intent": {
+      "prompt": "Do I encounter a path blocked by rocks?",
+      "task_type": "question answering",
+      "confidence": 0.3699,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3176,
+      "overall_confidence": 0.3438,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20958784222602844
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Were any paths blocked by rocks",
+    "refined_prompt": "Paths blocked by rocks.",
+    "intent": {
+      "prompt": "Were any paths blocked by rocks",
+      "task_type": "question answering",
+      "confidence": 0.3774,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3137,
+      "overall_confidence": 0.3456,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20486214756965637
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Did a robot encountered a path blocked by rocks?",
+    "refined_prompt": "A robot near a path blocked by rocks.",
+    "intent": {
+      "prompt": "Did a robot encountered a path blocked by rocks?",
+      "task_type": "question answering",
+      "confidence": 0.3733,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3171,
+      "overall_confidence": 0.3452,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.14833809435367584
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "how many times do you encounter rocks blocking the path",
+    "refined_prompt": "Location of rocks blocking a path.",
+    "intent": {
+      "prompt": "how many times do you encounter rocks blocking the path",
+      "task_type": "question answering",
+      "confidence": 0.3806,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3105,
+      "overall_confidence": 0.3456,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19209197163581848
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "do I get blocked by rocks or climb stairs",
+    "refined_prompt": "Uneven rocks or a set of stairs.",
+    "intent": {
+      "prompt": "do I get blocked by rocks or climb stairs",
+      "task_type": "question answering",
+      "confidence": 0.3911,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3108,
+      "overall_confidence": 0.351,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1723790168762207
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "do I get blocked by rocks and turn around during the video?",
+    "refined_prompt": "Obstructing rocks and a turning action.",
+    "intent": {
+      "prompt": "do I get blocked by rocks and turn around during the video?",
+      "task_type": "question answering",
+      "confidence": 0.3787,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3113,
+      "overall_confidence": 0.345,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18563608825206757
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "is there any path blocked by rocks?",
+    "refined_prompt": "A path blocked by rocks.",
+    "intent": {
+      "prompt": "is there any path blocked by rocks?",
+      "task_type": "question answering",
+      "confidence": 0.3687,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3174,
+      "overall_confidence": 0.343,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20958784222602844
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Do you encounter a path blocked by rocks? And how many rocks",
+    "refined_prompt": "Rocks blocking a path.",
+    "intent": {
+      "prompt": "Do you encounter a path blocked by rocks? And how many rocks",
+      "task_type": "question answering",
+      "confidence": 0.3716,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3184,
+      "overall_confidence": 0.345,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.200439915060997
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Is there a path blocked by rocks",
+    "refined_prompt": "A path blocked by rocks.",
+    "intent": {
+      "prompt": "Is there a path blocked by rocks",
+      "task_type": "question answering",
+      "confidence": 0.3699,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3201,
+      "overall_confidence": 0.345,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20958784222602844
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "Was the path blocked at any point? If so by what?",
+    "refined_prompt": "An object blocking a path.",
+    "intent": {
+      "prompt": "Was the path blocked at any point? If so by what?",
+      "task_type": "question answering",
+      "confidence": 0.3613,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3313,
+      "overall_confidence": 0.3463,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.09952133893966675
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "raw_query": "What blocked the path? Was it rocks?",
+    "refined_prompt": "Rocks blocking a path.",
+    "intent": {
+      "prompt": "What blocked the path? Was it rocks?",
+      "task_type": "question answering",
+      "confidence": 0.3662,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.324,
+      "overall_confidence": 0.3451,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.200439915060997
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "refined_prompt": "A three-way junction inside a tunnel.",
+    "intent": {
+      "prompt": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+      "task_type": "question answering",
+      "confidence": 0.3596,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3308,
+      "overall_confidence": 0.3452,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.198623389005661
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "not which one i should choose, but which one was chosen in the video",
+    "refined_prompt": "The chosen item.",
+    "intent": {
+      "prompt": "not which one i should choose, but which one was chosen in the video",
+      "task_type": "question answering",
+      "confidence": 0.3674,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3206,
+      "overall_confidence": 0.344,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.05183256417512894
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "but in the video, in the first 3 way junction, which direction was travelled",
+    "refined_prompt": "Direction travelled from the first three-way junction.",
+    "intent": {
+      "prompt": "but in the video, in the first 3 way junction, which direction was travelled",
+      "task_type": "question answering",
+      "confidence": 0.3679,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.321,
+      "overall_confidence": 0.3445,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.12348548322916031
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "In the first three way junction I get inside the tunnel, which direction do I choose to explore?",
+    "refined_prompt": "The three paths at a junction inside a tunnel.",
+    "intent": {
+      "prompt": "In the first three way junction I get inside the tunnel, which direction do I choose to explore?",
+      "task_type": "question answering",
+      "confidence": 0.3608,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3274,
+      "overall_confidence": 0.3441,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.21059873700141907
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "Explain me what happens at the first three way junction that I encounter after getting inside the tunnel?",
+    "refined_prompt": "A three way junction inside a tunnel.",
+    "intent": {
+      "prompt": "Explain me what happens at the first three way junction that I encounter after getting inside the tunnel?",
+      "task_type": "question answering",
+      "confidence": 0.3669,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3196,
+      "overall_confidence": 0.3433,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "after",
+      "spatial_context": "inside"
+    },
+    "cosine": 0.20041361451148987
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "which direction did I go at the first three way junction",
+    "refined_prompt": "Path of a moving entity at the first three-way junction.",
+    "intent": {
+      "prompt": "which direction did I go at the first three way junction",
+      "task_type": "question answering",
+      "confidence": 0.3816,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.312,
+      "overall_confidence": 0.3468,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.11288382858037949
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "In which way the robot turned at the first 3 way junction?",
+    "refined_prompt": "A robot turning at the first three-way junction.",
+    "intent": {
+      "prompt": "In which way the robot turned at the first 3 way junction?",
+      "task_type": "question answering",
+      "confidence": 0.3682,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3169,
+      "overall_confidence": 0.3425,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.11757029592990875
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "When the three-way junction is encountered, which tunnel is chosen?",
+    "refined_prompt": "The chosen tunnel at a three-way junction.",
+    "intent": {
+      "prompt": "When the three-way junction is encountered, which tunnel is chosen?",
+      "task_type": "question answering",
+      "confidence": 0.3655,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3225,
+      "overall_confidence": 0.344,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20907440781593323
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "Is it the tunnel on the left, right or middle",
+    "refined_prompt": "A tunnel on the left, right, or middle.",
+    "intent": {
+      "prompt": "Is it the tunnel on the left, right or middle",
+      "task_type": "question answering",
+      "confidence": 0.3677,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3213,
+      "overall_confidence": 0.3445,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19325144588947296
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "which way the robot goes in the first three-way junction",
+    "refined_prompt": "A robot entering the first three-way junction.",
+    "intent": {
+      "prompt": "which way the robot goes in the first three-way junction",
+      "task_type": "question answering",
+      "confidence": 0.3672,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3247,
+      "overall_confidence": 0.3459,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.14392033219337463
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "What time does the main junction with three seperate tunnels appear in the video",
+    "refined_prompt": "A main junction with three separate tunnels.",
+    "intent": {
+      "prompt": "What time does the main junction with three seperate tunnels appear in the video",
+      "task_type": "question answering",
+      "confidence": 0.3696,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3213,
+      "overall_confidence": 0.3455,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1959996372461319
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "Which way do I go at the three way junction",
+    "refined_prompt": "A three way junction.",
+    "intent": {
+      "prompt": "Which way do I go at the three way junction",
+      "task_type": "question answering",
+      "confidence": 0.375,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3149,
+      "overall_confidence": 0.345,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.07990289479494095
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "at which frame did you encounter the three-way junction",
+    "refined_prompt": "The three-way junction.",
+    "intent": {
+      "prompt": "at which frame did you encounter the three-way junction",
+      "task_type": "question answering",
+      "confidence": 0.3777,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3152,
+      "overall_confidence": 0.3464,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.08698864281177521
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "At the first junction which direction, (left, centre, right) was taken?",
+    "refined_prompt": "Path taken at the first junction.",
+    "intent": {
+      "prompt": "At the first junction which direction, (left, centre, right) was taken?",
+      "task_type": "question answering",
+      "confidence": 0.364,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3264,
+      "overall_confidence": 0.3452,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "left of"
+    },
+    "cosine": 0.15987956523895264
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "raw_query": "why should I take the left path to explore the tunnel? what can you see at the junction? any blockage?",
+    "refined_prompt": "Locate the left path and any blockages at the tunnel junction.",
+    "intent": {
+      "prompt": "why should I take the left path to explore the tunnel? what can you see at the junction? any blockage?",
+      "task_type": "question answering",
+      "confidence": 0.3616,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3284,
+      "overall_confidence": 0.345,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.16456741094589233
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Artificial Bamboo Tree in video",
+    "refined_prompt": "Artificial bamboo tree.",
+    "intent": {
+      "prompt": "Artificial Bamboo Tree in video",
+      "task_type": "question answering",
+      "confidence": 0.3743,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3147,
+      "overall_confidence": 0.3445,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.02112058363854885
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Show me when I encounter artificial bamboo trees",
+    "refined_prompt": "A person encountering artificial bamboo trees.",
+    "intent": {
+      "prompt": "Show me when I encounter artificial bamboo trees",
+      "task_type": "question answering",
+      "confidence": 0.3779,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3137,
+      "overall_confidence": 0.3458,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": -0.006452052388340235
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Show me images of artificial trees",
+    "refined_prompt": "Artificial trees.",
+    "intent": {
+      "prompt": "Show me images of artificial trees",
+      "task_type": "question answering",
+      "confidence": 0.3711,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3196,
+      "overall_confidence": 0.3453,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.06171657145023346
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Show me images of different artificial trees",
+    "refined_prompt": "Artificial trees.",
+    "intent": {
+      "prompt": "Show me images of different artificial trees",
+      "task_type": "question answering",
+      "confidence": 0.3674,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3225,
+      "overall_confidence": 0.345,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.06171657145023346
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "How many Artificial Bamboo Trees were detected?",
+    "refined_prompt": "Artificial Bamboo Trees.",
+    "intent": {
+      "prompt": "How many Artificial Bamboo Trees were detected?",
+      "task_type": "question answering",
+      "confidence": 0.3665,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.321,
+      "overall_confidence": 0.3438,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.02719610556960106
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Can you show me an image including the bamboo tree with a time stamp",
+    "refined_prompt": "A bamboo tree.",
+    "intent": {
+      "prompt": "Can you show me an image including the bamboo tree with a time stamp",
+      "task_type": "question answering",
+      "confidence": 0.3726,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3188,
+      "overall_confidence": 0.3457,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.018846923485398293
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "In the following video do you see a bamboo tree? The tree might look artificial",
+    "refined_prompt": "An artificial bamboo tree.",
+    "intent": {
+      "prompt": "In the following video do you see a bamboo tree? The tree might look artificial",
+      "task_type": "question answering",
+      "confidence": 0.3665,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.325,
+      "overall_confidence": 0.3457,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.031290434300899506
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "bamboo tree",
+    "refined_prompt": "A bamboo tree.",
+    "intent": {
+      "prompt": "bamboo tree",
+      "task_type": "question answering",
+      "confidence": 0.4119,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3101,
+      "overall_confidence": 0.361,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.018846923485398293
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "artificial bamboo tree",
+    "refined_prompt": "Artificial bamboo tree.",
+    "intent": {
+      "prompt": "artificial bamboo tree",
+      "task_type": "question answering",
+      "confidence": 0.3857,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3149,
+      "overall_confidence": 0.3503,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.02112058363854885
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "show me pictures of trees",
+    "refined_prompt": "Trees.",
+    "intent": {
+      "prompt": "show me pictures of trees",
+      "task_type": "question answering",
+      "confidence": 0.3831,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3115,
+      "overall_confidence": 0.3473,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.034256309270858765
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "are there any trees that differ from the image at time 24:51",
+    "refined_prompt": "Location of trees differing from the image at 24:51.",
+    "intent": {
+      "prompt": "are there any trees that differ from the image at time 24:51",
+      "task_type": "question answering",
+      "confidence": 0.376,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3132,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.05922975391149521
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "How many artificial bamboo trees are in this video",
+    "refined_prompt": "Artificial bamboo trees.",
+    "intent": {
+      "prompt": "How many artificial bamboo trees are in this video",
+      "task_type": "question answering",
+      "confidence": 0.3667,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3215,
+      "overall_confidence": 0.3441,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.02719610556960106
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "how many bamboo trees did you see in the video footage",
+    "refined_prompt": "Bamboo trees.",
+    "intent": {
+      "prompt": "how many bamboo trees did you see in the video footage",
+      "task_type": "question answering",
+      "confidence": 0.3796,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.313,
+      "overall_confidence": 0.3463,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.008329302072525024
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "bamboo trees",
+    "refined_prompt": "Bamboo trees.",
+    "intent": {
+      "prompt": "bamboo trees",
+      "task_type": "question answering",
+      "confidence": 0.3923,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3079,
+      "overall_confidence": 0.3501,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.008329302072525024
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "artifical bamboo tree",
+    "refined_prompt": "An artificial bamboo tree.",
+    "intent": {
+      "prompt": "artifical bamboo tree",
+      "task_type": "question answering",
+      "confidence": 0.3875,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3176,
+      "overall_confidence": 0.3525,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.031290434300899506
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Artificial Bamboo Tree",
+    "refined_prompt": "Artificial Bamboo Tree",
+    "intent": {
+      "prompt": "Artificial Bamboo Tree",
+      "task_type": "question answering",
+      "confidence": 0.3701,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3206,
+      "overall_confidence": 0.3453,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.020885776728391647
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "how many bamboo tree were there?",
+    "refined_prompt": "Bamboo trees.",
+    "intent": {
+      "prompt": "how many bamboo tree were there?",
+      "task_type": "question answering",
+      "confidence": 0.3733,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3169,
+      "overall_confidence": 0.3451,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.008329302072525024
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "raw_query": "Show artificial bamboo trees",
+    "refined_prompt": "Artificial bamboo trees.",
+    "intent": {
+      "prompt": "Show artificial bamboo trees",
+      "task_type": "question answering",
+      "confidence": 0.3806,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3135,
+      "overall_confidence": 0.347,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.02719610556960106
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "black barrel in video",
+    "refined_prompt": "A black barrel.",
+    "intent": {
+      "prompt": "black barrel in video",
+      "task_type": "question answering",
+      "confidence": 0.377,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3127,
+      "overall_confidence": 0.3448,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.23900476098060608
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "Show me when I encounter black barrels",
+    "refined_prompt": "Black barrels appearing.",
+    "intent": {
+      "prompt": "Show me when I encounter black barrels",
+      "task_type": "question answering",
+      "confidence": 0.3784,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3142,
+      "overall_confidence": 0.3463,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "during",
+      "spatial_context": "none"
+    },
+    "cosine": 0.30989882349967957
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "Show me images of black barrels",
+    "refined_prompt": "Black barrels.",
+    "intent": {
+      "prompt": "Show me images of black barrels",
+      "task_type": "question answering",
+      "confidence": 0.3696,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3225,
+      "overall_confidence": 0.3461,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2888678312301636
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "How many black barrel were detected?",
+    "refined_prompt": "Location of black barrels.",
+    "intent": {
+      "prompt": "How many black barrel were detected?",
+      "task_type": "question answering",
+      "confidence": 0.3738,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3147,
+      "overall_confidence": 0.3442,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.26761558651924133
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "can you show me all images with a black barrel",
+    "refined_prompt": "A black barrel.",
+    "intent": {
+      "prompt": "can you show me all images with a black barrel",
+      "task_type": "question answering",
+      "confidence": 0.3743,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3145,
+      "overall_confidence": 0.3444,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.23900476098060608
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "Can you show me the following items if present in the video:\n1. Bamboo tree\n2. White helmet\n3. Black barrel",
+    "refined_prompt": "A bamboo tree, a white helmet, and a black barrel.",
+    "intent": {
+      "prompt": "Can you show me the following items if present in the video:\n1. Bamboo tree\n2. White helmet\n3. Black barrel",
+      "task_type": "question answering",
+      "confidence": 0.3623,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3293,
+      "overall_confidence": 0.3458,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.16577854752540588
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "black barrel",
+    "refined_prompt": "A black barrel.",
+    "intent": {
+      "prompt": "black barrel",
+      "task_type": "question answering",
+      "confidence": 0.376,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3159,
+      "overall_confidence": 0.3459,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.23900476098060608
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "Are there any barrels in the footage",
+    "refined_prompt": "Barrels.",
+    "intent": {
+      "prompt": "Are there any barrels in the footage",
+      "task_type": "question answering",
+      "confidence": 0.3743,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3154,
+      "overall_confidence": 0.3448,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2688817083835602
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "Show me another view of the black barrel in the fourth image",
+    "refined_prompt": "A black barrel.",
+    "intent": {
+      "prompt": "Show me another view of the black barrel in the fourth image",
+      "task_type": "question answering",
+      "confidence": 0.3762,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3125,
+      "overall_confidence": 0.3444,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.23900476098060608
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "find all black barrels",
+    "refined_prompt": "Black barrels",
+    "intent": {
+      "prompt": "find all black barrels",
+      "task_type": "question answering",
+      "confidence": 0.3921,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3081,
+      "overall_confidence": 0.3501,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2894276976585388
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "barrel",
+    "refined_prompt": "A barrel.",
+    "intent": {
+      "prompt": "barrel",
+      "task_type": "question answering",
+      "confidence": 0.395,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3049,
+      "overall_confidence": 0.35,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2142946869134903
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "serch for black barrel",
+    "refined_prompt": "Location of the black barrel.",
+    "intent": {
+      "prompt": "serch for black barrel",
+      "task_type": "question answering",
+      "confidence": 0.3855,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3135,
+      "overall_confidence": 0.3495,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2159336358308792
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "search for black barrel",
+    "refined_prompt": "A black barrel.",
+    "intent": {
+      "prompt": "search for black barrel",
+      "task_type": "question answering",
+      "confidence": 0.3875,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3108,
+      "overall_confidence": 0.3491,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.23900476098060608
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "raw_query": "Show black barrels encountered in the tunnel",
+    "refined_prompt": "Black barrels in a tunnel.",
+    "intent": {
+      "prompt": "Show black barrels encountered in the tunnel",
+      "task_type": "question answering",
+      "confidence": 0.3779,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3127,
+      "overall_confidence": 0.3453,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "inside"
+    },
+    "cosine": 0.3092738091945648
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "Do you knock down a door while trying to pass through it?",
+    "refined_prompt": "A door being knocked down.",
+    "intent": {
+      "prompt": "Do you knock down a door while trying to pass through it?",
+      "task_type": "question answering",
+      "confidence": 0.3613,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3289,
+      "overall_confidence": 0.3451,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17547093331813812
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "Show me if I knock down a door while trying to to pass through it",
+    "refined_prompt": "A door being knocked down.",
+    "intent": {
+      "prompt": "Show me if I knock down a door while trying to to pass through it",
+      "task_type": "question answering",
+      "confidence": 0.3704,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3162,
+      "overall_confidence": 0.3433,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17547093331813812
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "doors",
+    "refined_prompt": "The doors.",
+    "intent": {
+      "prompt": "doors",
+      "task_type": "question answering",
+      "confidence": 0.3896,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.313,
+      "overall_confidence": 0.3513,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.07913365960121155
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "Did I knock down a door?",
+    "refined_prompt": "A knocked-down door.",
+    "intent": {
+      "prompt": "Did I knock down a door?",
+      "task_type": "question answering",
+      "confidence": 0.3604,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3311,
+      "overall_confidence": 0.3457,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17261195182800293
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "knock down a door",
+    "refined_prompt": "A door being knocked down.",
+    "intent": {
+      "prompt": "knock down a door",
+      "task_type": "question answering",
+      "confidence": 0.3755,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3154,
+      "overall_confidence": 0.3455,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17547093331813812
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "door",
+    "refined_prompt": "A door.",
+    "intent": {
+      "prompt": "door",
+      "task_type": "question answering",
+      "confidence": 0.3945,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3049,
+      "overall_confidence": 0.3497,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1623648703098297
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "Show me photos of doors",
+    "refined_prompt": "Doors.",
+    "intent": {
+      "prompt": "Show me photos of doors",
+      "task_type": "question answering",
+      "confidence": 0.3718,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3196,
+      "overall_confidence": 0.3457,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1365785449743271
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "Show me a door removed from its hinges",
+    "refined_prompt": "A door removed from its hinges.",
+    "intent": {
+      "prompt": "Show me a door removed from its hinges",
+      "task_type": "question answering",
+      "confidence": 0.3723,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3206,
+      "overall_confidence": 0.3464,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19017530977725983
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "raw_query": "Doors knocked down inside the tunnel",
+    "refined_prompt": "Doors knocked down inside the tunnel.",
+    "intent": {
+      "prompt": "Doors knocked down inside the tunnel",
+      "task_type": "question answering",
+      "confidence": 0.3694,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3184,
+      "overall_confidence": 0.3439,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "inside"
+    },
+    "cosine": 0.18827666342258453
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Who enters the tunnel before you?",
+    "refined_prompt": "Before a person enters the tunnel.",
+    "intent": {
+      "prompt": "Who enters the tunnel before you?",
+      "task_type": "question answering",
+      "confidence": 0.3669,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3201,
+      "overall_confidence": 0.3435,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20657780766487122
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "which robots enter the initial tunnel before you",
+    "refined_prompt": "Robots entering the initial tunnel before the camera.",
+    "intent": {
+      "prompt": "which robots enter the initial tunnel before you",
+      "task_type": "question answering",
+      "confidence": 0.3901,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.312,
+      "overall_confidence": 0.3511,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.30947238206863403
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "which robots enter the initial tunnel before you, there are two",
+    "refined_prompt": "Robots entering the initial tunnel.",
+    "intent": {
+      "prompt": "which robots enter the initial tunnel before you, there are two",
+      "task_type": "question answering",
+      "confidence": 0.3879,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3125,
+      "overall_confidence": 0.3502,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.29946446418762207
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "which robots enter the initial tunnel before you, there are two including wheeled at 7:27",
+    "refined_prompt": "Robots entering the initial tunnel before the camera.",
+    "intent": {
+      "prompt": "which robots enter the initial tunnel before you, there are two including wheeled at 7:27",
+      "task_type": "question answering",
+      "confidence": 0.3809,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3123,
+      "overall_confidence": 0.3466,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.30947238206863403
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Show me who enters the tunnel before me",
+    "refined_prompt": "A person entering a tunnel before a different person enters the tunnel.",
+    "intent": {
+      "prompt": "Show me who enters the tunnel before me",
+      "task_type": "question answering",
+      "confidence": 0.3772,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.312,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19739297032356262
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Show me the images of moving objects infront of me at the begining of the video",
+    "refined_prompt": "Moving objects in front at the beginning.",
+    "intent": {
+      "prompt": "Show me the images of moving objects infront of me at the begining of the video",
+      "task_type": "question answering",
+      "confidence": 0.3655,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3218,
+      "overall_confidence": 0.3436,
+      "output_modality": "image",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "in front"
+    },
+    "cosine": 0.06848278641700745
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "show spot or ATR entering the tunnel before me",
+    "refined_prompt": "Before a robot enters the tunnel.",
+    "intent": {
+      "prompt": "show spot or ATR entering the tunnel before me",
+      "task_type": "question answering",
+      "confidence": 0.3774,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3123,
+      "overall_confidence": 0.3448,
+      "output_modality": "video",
+      "complexity": "temporal",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.3133457601070404
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "spot",
+    "refined_prompt": "An unspecified object.",
+    "intent": {
+      "prompt": "spot",
+      "task_type": "question answering",
+      "confidence": 0.395,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3052,
+      "overall_confidence": 0.3501,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.0657653659582138
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "ATR robot",
+    "refined_prompt": "An ATR robot.",
+    "intent": {
+      "prompt": "ATR robot",
+      "task_type": "question answering",
+      "confidence": 0.3684,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3228,
+      "overall_confidence": 0.3456,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17274491488933563
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "can you show me all images with robots outside the tunnel",
+    "refined_prompt": "Robots outside the tunnel.",
+    "intent": {
+      "prompt": "can you show me all images with robots outside the tunnel",
+      "task_type": "question answering",
+      "confidence": 0.3801,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3103,
+      "overall_confidence": 0.3452,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "inside"
+    },
+    "cosine": 0.31850573420524597
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "spot robot",
+    "refined_prompt": "A robot.",
+    "intent": {
+      "prompt": "spot robot",
+      "task_type": "question answering",
+      "confidence": 0.3821,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.311,
+      "overall_confidence": 0.3466,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.14917151629924774
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "atr",
+    "refined_prompt": "Detect the atr.",
+    "intent": {
+      "prompt": "atr",
+      "task_type": "question answering",
+      "confidence": 0.3613,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3347,
+      "overall_confidence": 0.348,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.11106084287166595
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "atr robot",
+    "refined_prompt": "An ATR robot.",
+    "intent": {
+      "prompt": "atr robot",
+      "task_type": "question answering",
+      "confidence": 0.3711,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3147,
+      "overall_confidence": 0.3429,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.17274491488933563
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "all terrain robot",
+    "refined_prompt": "An all terrain robot.",
+    "intent": {
+      "prompt": "all terrain robot",
+      "task_type": "question answering",
+      "confidence": 0.3958,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3105,
+      "overall_confidence": 0.3531,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.20479974150657654
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "entering the tunnel",
+    "refined_prompt": "An object entering a tunnel.",
+    "intent": {
+      "prompt": "entering the tunnel",
+      "task_type": "question answering",
+      "confidence": 0.3674,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3252,
+      "overall_confidence": 0.3463,
+      "output_modality": "unknown",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2338559925556183
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Spot ATR",
+    "refined_prompt": "Location of ATR.",
+    "intent": {
+      "prompt": "Spot ATR",
+      "task_type": "question answering",
+      "confidence": 0.3743,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3191,
+      "overall_confidence": 0.3467,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.09427961707115173
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Show me a robot entering the tunnel",
+    "refined_prompt": "A robot entering a tunnel.",
+    "intent": {
+      "prompt": "Show me a robot entering the tunnel",
+      "task_type": "question answering",
+      "confidence": 0.3794,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3113,
+      "overall_confidence": 0.3453,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.3386160433292389
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Show me images of a yellow robot",
+    "refined_prompt": "A yellow robot.",
+    "intent": {
+      "prompt": "Show me images of a yellow robot",
+      "task_type": "question answering",
+      "confidence": 0.3687,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3225,
+      "overall_confidence": 0.3456,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.15777598321437836
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Show me images of a yellow robot after the 11 minutes mark in the footage",
+    "refined_prompt": "After the 11 minutes mark, a yellow robot.",
+    "intent": {
+      "prompt": "Show me images of a yellow robot after the 11 minutes mark in the footage",
+      "task_type": "question answering",
+      "confidence": 0.3704,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3179,
+      "overall_confidence": 0.3441,
+      "output_modality": "image",
+      "complexity": "temporal",
+      "temporal_context": "after",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1845472753047943
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "Show me any robots that go into the tunnel",
+    "refined_prompt": "A robot entering a tunnel.",
+    "intent": {
+      "prompt": "Show me any robots that go into the tunnel",
+      "task_type": "question answering",
+      "confidence": 0.3799,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3101,
+      "overall_confidence": 0.345,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "inside"
+    },
+    "cosine": 0.3386160433292389
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "robots",
+    "refined_prompt": "Robots.",
+    "intent": {
+      "prompt": "robots",
+      "task_type": "question answering",
+      "confidence": 0.3789,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3137,
+      "overall_confidence": 0.3463,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.13381917774677277
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "orange robot",
+    "refined_prompt": "Orange robot.",
+    "intent": {
+      "prompt": "orange robot",
+      "task_type": "question answering",
+      "confidence": 0.3816,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3101,
+      "overall_confidence": 0.3458,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1337801069021225
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "tunnel entrance robot",
+    "refined_prompt": "A robot at a tunnel entrance.",
+    "intent": {
+      "prompt": "tunnel entrance robot",
+      "task_type": "question answering",
+      "confidence": 0.3916,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.313,
+      "overall_confidence": 0.3523,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.3588886559009552
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "tunnel entrance with a robot at start of video",
+    "refined_prompt": "A robot at a tunnel entrance.",
+    "intent": {
+      "prompt": "tunnel entrance with a robot at start of video",
+      "task_type": "question answering",
+      "confidence": 0.3811,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3125,
+      "overall_confidence": 0.3468,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.3588886559009552
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "tunnel entrance with a spot and atr at start of video",
+    "refined_prompt": "A tunnel entrance with a spot and an atr.",
+    "intent": {
+      "prompt": "tunnel entrance with a spot and atr at start of video",
+      "task_type": "question answering",
+      "confidence": 0.3755,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3125,
+      "overall_confidence": 0.344,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.25553661584854126
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "who enters tunnel before",
+    "refined_prompt": "Before a person enters a tunnel.",
+    "intent": {
+      "prompt": "who enters tunnel before",
+      "task_type": "question answering",
+      "confidence": 0.3716,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3174,
+      "overall_confidence": 0.3445,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19434356689453125
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "robots enter before",
+    "refined_prompt": "Before robots enter.",
+    "intent": {
+      "prompt": "robots enter before",
+      "task_type": "question answering",
+      "confidence": 0.3997,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3159,
+      "overall_confidence": 0.3578,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "before",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18454310297966003
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "raw_query": "How many robots did enter the tunnel?",
+    "refined_prompt": "Robots entering a tunnel.",
+    "intent": {
+      "prompt": "How many robots did enter the tunnel?",
+      "task_type": "question answering",
+      "confidence": 0.366,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3225,
+      "overall_confidence": 0.3442,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.3145233690738678
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "any blue barrels in the video",
+    "refined_prompt": "Blue barrels.",
+    "intent": {
+      "prompt": "any blue barrels in the video",
+      "task_type": "question answering",
+      "confidence": 0.3872,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3091,
+      "overall_confidence": 0.3481,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19149509072303772
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "any barrels in the video",
+    "refined_prompt": "Barrels.",
+    "intent": {
+      "prompt": "any barrels in the video",
+      "task_type": "question answering",
+      "confidence": 0.3867,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3093,
+      "overall_confidence": 0.348,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19529850780963898
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "How many blue barrels appear on the video",
+    "refined_prompt": "Multiple blue barrels.",
+    "intent": {
+      "prompt": "How many blue barrels appear on the video",
+      "task_type": "question answering",
+      "confidence": 0.3745,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3135,
+      "overall_confidence": 0.344,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1715833842754364
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "I want to see when blue barrels appears in my view",
+    "refined_prompt": "Blue barrels appearing.",
+    "intent": {
+      "prompt": "I want to see when blue barrels appears in my view",
+      "task_type": "question answering",
+      "confidence": 0.3691,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3184,
+      "overall_confidence": 0.3438,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "during",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19392050802707672
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "How many blue barrels did I detected?",
+    "refined_prompt": "Blue barrels.",
+    "intent": {
+      "prompt": "How many blue barrels did I detected?",
+      "task_type": "question answering",
+      "confidence": 0.3682,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3193,
+      "overall_confidence": 0.3438,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19149509072303772
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "show me all images with a blue barrel in them",
+    "refined_prompt": "A blue barrel.",
+    "intent": {
+      "prompt": "show me all images with a blue barrel in them",
+      "task_type": "question answering",
+      "confidence": 0.3733,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3157,
+      "overall_confidence": 0.3445,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2133314609527588
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Are there any barrels in the video? Show all colours",
+    "refined_prompt": "Barrels of various colors.",
+    "intent": {
+      "prompt": "Are there any barrels in the video? Show all colours",
+      "task_type": "question answering",
+      "confidence": 0.3674,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3232,
+      "overall_confidence": 0.3453,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.14398807287216187
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Show all cylindrical objects, specifically barrels",
+    "refined_prompt": "Cylindrical objects, specifically barrels.",
+    "intent": {
+      "prompt": "Show all cylindrical objects, specifically barrels",
+      "task_type": "question answering",
+      "confidence": 0.3752,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3169,
+      "overall_confidence": 0.3461,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1509171426296234
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "blue barrel",
+    "refined_prompt": "A blue barrel.",
+    "intent": {
+      "prompt": "blue barrel",
+      "task_type": "question answering",
+      "confidence": 0.3723,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3203,
+      "overall_confidence": 0.3463,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2133314609527588
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Show me all the footage you have of blue barrels, appended one after the other",
+    "refined_prompt": "Blue barrels.",
+    "intent": {
+      "prompt": "Show me all the footage you have of blue barrels, appended one after the other",
+      "task_type": "question answering",
+      "confidence": 0.3647,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3237,
+      "overall_confidence": 0.3442,
+      "output_modality": "video",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19149509072303772
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Show me all the footage of barrels",
+    "refined_prompt": "Barrels.",
+    "intent": {
+      "prompt": "Show me all the footage of barrels",
+      "task_type": "question answering",
+      "confidence": 0.3767,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3142,
+      "overall_confidence": 0.3455,
+      "output_modality": "video",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19529850780963898
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "show me all the blue barrels",
+    "refined_prompt": "Blue barrels.",
+    "intent": {
+      "prompt": "show me all the blue barrels",
+      "task_type": "question answering",
+      "confidence": 0.3887,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3101,
+      "overall_confidence": 0.3494,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19149509072303772
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "barrels",
+    "refined_prompt": "barrels",
+    "intent": {
+      "prompt": "barrels",
+      "task_type": "question answering",
+      "confidence": 0.3662,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3279,
+      "overall_confidence": 0.347,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18874894082546234
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "blue barrels",
+    "refined_prompt": "blue barrels",
+    "intent": {
+      "prompt": "blue barrels",
+      "task_type": "question answering",
+      "confidence": 0.3889,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3118,
+      "overall_confidence": 0.3503,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.18634121119976044
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Please generate me a video summary showing all blue barrels from the full footage",
+    "refined_prompt": "Blue barrels.",
+    "intent": {
+      "prompt": "Please generate me a video summary showing all blue barrels from the full footage",
+      "task_type": "question answering",
+      "confidence": 0.3694,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3198,
+      "overall_confidence": 0.3446,
+      "output_modality": "video",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19149509072303772
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Please generate me a video summary showing all types of barrels from the full footage",
+    "refined_prompt": "Barrels.",
+    "intent": {
+      "prompt": "Please generate me a video summary showing all types of barrels from the full footage",
+      "task_type": "question answering",
+      "confidence": 0.3669,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3223,
+      "overall_confidence": 0.3446,
+      "output_modality": "video",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19529850780963898
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Blue barrel",
+    "refined_prompt": "Location of a blue barrel.",
+    "intent": {
+      "prompt": "Blue barrel",
+      "task_type": "question answering",
+      "confidence": 0.3665,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3286,
+      "overall_confidence": 0.3475,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.22814148664474487
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "raw_query": "Blue barrels",
+    "refined_prompt": "Blue barrels.",
+    "intent": {
+      "prompt": "Blue barrels",
+      "task_type": "question answering",
+      "confidence": 0.376,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3159,
+      "overall_confidence": 0.3459,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.19149509072303772
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "Do you climb any stairs during the run?",
+    "refined_prompt": "A person climbing stairs.",
+    "intent": {
+      "prompt": "Do you climb any stairs during the run?",
+      "task_type": "question answering",
+      "confidence": 0.3652,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.324,
+      "overall_confidence": 0.3446,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1652325689792633
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "Show me when I climb any stairs",
+    "refined_prompt": "A person climbing stairs.",
+    "intent": {
+      "prompt": "Show me when I climb any stairs",
+      "task_type": "question answering",
+      "confidence": 0.3748,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3154,
+      "overall_confidence": 0.3451,
+      "output_modality": "text",
+      "complexity": "temporal",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1652325689792633
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "stairs",
+    "refined_prompt": "Stairs",
+    "intent": {
+      "prompt": "stairs",
+      "task_type": "question answering",
+      "confidence": 0.375,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3188,
+      "overall_confidence": 0.3469,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.22104233503341675
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "Did I climb any stairs?",
+    "refined_prompt": "A person climbing stairs.",
+    "intent": {
+      "prompt": "Did I climb any stairs?",
+      "task_type": "question answering",
+      "confidence": 0.3608,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3301,
+      "overall_confidence": 0.3455,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.1652325689792633
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "show me all images with stairs in them",
+    "refined_prompt": "Location of stairs.",
+    "intent": {
+      "prompt": "show me all images with stairs in them",
+      "task_type": "question answering",
+      "confidence": 0.373,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3184,
+      "overall_confidence": 0.3457,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.23857611417770386
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "show any stairs in the video",
+    "refined_prompt": "Stairs.",
+    "intent": {
+      "prompt": "show any stairs in the video",
+      "task_type": "question answering",
+      "confidence": 0.4084,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3083,
+      "overall_confidence": 0.3584,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2279258370399475
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "show me footage of stairs",
+    "refined_prompt": "Stairs.",
+    "intent": {
+      "prompt": "show me footage of stairs",
+      "task_type": "question answering",
+      "confidence": 0.3826,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3115,
+      "overall_confidence": 0.347,
+      "output_modality": "video",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2279258370399475
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "stair",
+    "refined_prompt": "A flight of stairs.",
+    "intent": {
+      "prompt": "stair",
+      "task_type": "question answering",
+      "confidence": 0.3655,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3293,
+      "overall_confidence": 0.3474,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2097722738981247
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "raw_query": "Show where stairs were encountered",
+    "refined_prompt": "Stairs",
+    "intent": {
+      "prompt": "Show where stairs were encountered",
+      "task_type": "question answering",
+      "confidence": 0.3757,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.313,
+      "overall_confidence": 0.3444,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.22104233503341675
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "raw_query": "is there a wheelbarrow in the video",
+    "refined_prompt": "A wheelbarrow.",
+    "intent": {
+      "prompt": "is there a wheelbarrow in the video",
+      "task_type": "question answering",
+      "confidence": 0.3738,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3171,
+      "overall_confidence": 0.3455,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.24033409357070923
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "raw_query": "Show me the wheelbarrow",
+    "refined_prompt": "A wheelbarrow.",
+    "intent": {
+      "prompt": "Show me the wheelbarrow",
+      "task_type": "question answering",
+      "confidence": 0.3831,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3103,
+      "overall_confidence": 0.3467,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.24033409357070923
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "raw_query": "where is the blue wheelbarrow",
+    "refined_prompt": "Blue wheelbarrow.",
+    "intent": {
+      "prompt": "where is the blue wheelbarrow",
+      "task_type": "question answering",
+      "confidence": 0.3855,
+      "secondary_task_type": "temporal_localisation",
+      "secondary_confidence": 0.3076,
+      "overall_confidence": 0.3466,
+      "output_modality": "text",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.25004106760025024
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "raw_query": "show me the blue wheelbarrow in the video",
+    "refined_prompt": "A blue wheelbarrow.",
+    "intent": {
+      "prompt": "show me the blue wheelbarrow in the video",
+      "task_type": "question answering",
+      "confidence": 0.3796,
+      "secondary_task_type": "object_detection",
+      "secondary_confidence": 0.3108,
+      "overall_confidence": 0.3452,
+      "output_modality": "image",
+      "complexity": "simple",
+      "temporal_context": "none",
+      "spatial_context": "none"
+    },
+    "cosine": 0.2621398866176605
+  }
+]

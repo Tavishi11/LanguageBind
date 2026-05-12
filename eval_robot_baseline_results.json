@@ -1,0 +1,1136 @@
+[
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "how many drills are there",
+    "cosine": 0.03893868252635002,
+    "softmax": 0.04740631952881813
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "How many drills did you observe?",
+    "cosine": 0.08139534294605255,
+    "softmax": 0.07248083502054214
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "What timestamps did are drills seen in the video",
+    "cosine": 0.05208918824791908,
+    "softmax": 0.05406897887587547
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "How many drills",
+    "cosine": 0.05055718123912811,
+    "softmax": 0.05324695259332657
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "Are there any drill-like objects in the scene? If so provide a time stamp. Provide your reasoning.",
+    "cosine": 0.01770637556910515,
+    "softmax": 0.03833765164017677
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "How many drills are seen in the journey?",
+    "cosine": 0.08463647961616516,
+    "softmax": 0.07486851513385773
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "how many fire extinguisher and drills in the video?",
+    "cosine": 0.05290524289011955,
+    "softmax": 0.05451202020049095
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "How many orange drills are present and at what time does the first drill appear",
+    "cosine": 0.03127901628613472,
+    "softmax": 0.043910738080739975
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "Give me a timestamp for the first orange drill that appears in the footage",
+    "cosine": 0.08306027948856354,
+    "softmax": 0.07369769364595413
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "Where in the video stream do you see a drill, if there is a drill.",
+    "cosine": 0.10197781771421432,
+    "softmax": 0.0890454426407814
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "how many drills were there?",
+    "cosine": 0.07948846369981766,
+    "softmax": 0.07111180573701859
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "how many drill in this video",
+    "cosine": 0.05417148396372795,
+    "softmax": 0.05520666390657425
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "How many drills can be seen in the video?",
+    "cosine": 0.05462709069252014,
+    "softmax": 0.05545875430107117
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "How many drills were detected?",
+    "cosine": 0.09170134365558624,
+    "softmax": 0.08034919947385788
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "tell me how many drills do you see and where are they. are they in the same space?",
+    "cosine": 0.06377222388982773,
+    "softmax": 0.06076967716217041
+  },
+  {
+    "video": "P14_PrizeRun_drill_merged.mp4",
+    "category": "Drills",
+    "query": "In the video footage how many orange drills were observed",
+    "cosine": 0.08551444858312607,
+    "softmax": 0.07552874088287354
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "how many fire Extinguishers are there",
+    "cosine": 0.17926302552223206,
+    "softmax": 0.04938328638672829
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many fire extinguishers did you observe?",
+    "cosine": 0.21020978689193726,
+    "softmax": 0.06729459017515182
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many blue rope bundles are in the video",
+    "cosine": 0.02165844477713108,
+    "softmax": 0.01021202839910984
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "how confident are you there are three?",
+    "cosine": 0.02176346629858017,
+    "softmax": 0.010222758166491985
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many fire extinguishers were seen",
+    "cosine": 0.2196868658065796,
+    "softmax": 0.07398411631584167
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "List every red object in order they are seen",
+    "cosine": 0.08297120779752731,
+    "softmax": 0.018853414803743362
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "how many times does a fire extinguisher appear in the journey?",
+    "cosine": 0.18927428126335144,
+    "softmax": 0.0545831173658371
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "are they are fire extinguishers in the video? If so provide a time stamp",
+    "cosine": 0.18636706471443176,
+    "softmax": 0.05301911011338234
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "how many fire extinguishers are in the video and what are their timestamps",
+    "cosine": 0.15765272080898285,
+    "softmax": 0.039785757660865784
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many fire extinguishers are present in the footage",
+    "cosine": 0.18737320601940155,
+    "softmax": 0.05355525761842728
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "fire extinguisher",
+    "cosine": 0.21068143844604492,
+    "softmax": 0.06761272996664047
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many fire extinguishers",
+    "cosine": 0.1798270046710968,
+    "softmax": 0.04966258257627487
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How far into the video do you see a fire extinguisher",
+    "cosine": 0.22372524440288544,
+    "softmax": 0.07703302800655365
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "tell me how many fire extinguishers do you see and where are they",
+    "cosine": 0.20634807646274567,
+    "softmax": 0.06474539637565613
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "In the video footage how many fire extinguishers were observed",
+    "cosine": 0.2073604017496109,
+    "softmax": 0.06540416181087494
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "how many fireextinguishers?",
+    "cosine": 0.18922589719295502,
+    "softmax": 0.0545567125082016
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many Fire Extinguisher in the video",
+    "cosine": 0.16790840029716492,
+    "softmax": 0.0440826341509819
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many fire extinguishers were there?",
+    "cosine": 0.22582915425300598,
+    "softmax": 0.07867089658975601
+  },
+  {
+    "video": "P14_PrizeRun_fire_extinguisher_merged.mp4",
+    "category": "Fire Extinguisher",
+    "query": "How many fire extinguishers were detected?",
+    "cosine": 0.2102748453617096,
+    "softmax": 0.06733837723731995
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Do you encounter a path blocked by rocks?",
+    "cosine": 0.17214345932006836,
+    "softmax": 0.08251062780618668
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Do I encounter a path blocked by rocks?",
+    "cosine": 0.16829895973205566,
+    "softmax": 0.07939871400594711
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Were any paths blocked by rocks",
+    "cosine": 0.1871022880077362,
+    "softmax": 0.0958242192864418
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Did a robot encountered a path blocked by rocks?",
+    "cosine": 0.17092549800872803,
+    "softmax": 0.08151178061962128
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "how many times do you encounter rocks blocking the path",
+    "cosine": 0.17048196494579315,
+    "softmax": 0.08115105330944061
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "do I get blocked by rocks or climb stairs",
+    "cosine": 0.16091012954711914,
+    "softmax": 0.07374356687068939
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "do I get blocked by rocks and turn around during the video?",
+    "cosine": 0.15999674797058105,
+    "softmax": 0.07307307422161102
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "is there any path blocked by rocks?",
+    "cosine": 0.19134536385536194,
+    "softmax": 0.09997759759426117
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Do you encounter a path blocked by rocks? And how many rocks",
+    "cosine": 0.16933628916740417,
+    "softmax": 0.08022662997245789
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Is there a path blocked by rocks",
+    "cosine": 0.1966165006160736,
+    "softmax": 0.10538893193006516
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "Was the path blocked at any point? If so by what?",
+    "cosine": 0.13822472095489502,
+    "softmax": 0.058776356279850006
+  },
+  {
+    "video": "P14_PrizeRun_path blocked by rocks_00-00.mp4",
+    "category": "Do you encounter a path blocked by rocks?",
+    "query": "What blocked the path? Was it rocks?",
+    "cosine": 0.17905765771865845,
+    "softmax": 0.0884174257516861
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "cosine": 0.22081902623176575,
+    "softmax": 0.1279744654893875
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "not which one i should choose, but which one was chosen in the video",
+    "cosine": 0.03502030670642853,
+    "softmax": 0.019962260499596596
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "but in the video, in the first 3 way junction, which direction was travelled",
+    "cosine": 0.1153210774064064,
+    "softmax": 0.04456064850091934
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "In the first three way junction I get inside the tunnel, which direction do I choose to explore?",
+    "cosine": 0.23610389232635498,
+    "softmax": 0.14910925924777985
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "Explain me what happens at the first three way junction that I encounter after getting inside the tunnel?",
+    "cosine": 0.18009108304977417,
+    "softmax": 0.08516165614128113
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "which direction did I go at the first three way junction",
+    "cosine": 0.11195635050535202,
+    "softmax": 0.04308624938130379
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "In which way the robot turned at the first 3 way junction?",
+    "cosine": 0.11786989122629166,
+    "softmax": 0.04571101814508438
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "When the three-way junction is encountered, which tunnel is chosen?",
+    "cosine": 0.16188956797122955,
+    "softmax": 0.07098978757858276
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "Is it the tunnel on the left, right or middle",
+    "cosine": 0.1746414303779602,
+    "softmax": 0.08064482361078262
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "which way the robot goes in the first three-way junction",
+    "cosine": 0.11104575544595718,
+    "softmax": 0.04269569367170334
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "What time does the main junction with three seperate tunnels appear in the video",
+    "cosine": 0.16414478421211243,
+    "softmax": 0.07260895520448685
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "Which way do I go at the three way junction",
+    "cosine": 0.0990261361002922,
+    "softmax": 0.03786024823784828
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "at which frame did you encounter the three-way junction",
+    "cosine": 0.08354543894529343,
+    "softmax": 0.03243035450577736
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "At the first junction which direction, (left, centre, right) was taken?",
+    "cosine": 0.08453235030174255,
+    "softmax": 0.03275199979543686
+  },
+  {
+    "video": "P14_PrizeRun_three-way junction_03-57.mp4",
+    "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+    "query": "why should I take the left path to explore the tunnel? what can you see at the junction? any blockage?",
+    "cosine": 0.20965205132961273,
+    "softmax": 0.11445260792970657
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Artificial Bamboo Tree in video",
+    "cosine": 0.019420303404331207,
+    "softmax": 0.05095835402607918
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Show me when I encounter artificial bamboo trees",
+    "cosine": 0.03498295322060585,
+    "softmax": 0.05953922122716904
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Show me images of artificial trees",
+    "cosine": 0.057213135063648224,
+    "softmax": 0.0743614062666893
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Show me images of different artificial trees",
+    "cosine": 0.05436262488365173,
+    "softmax": 0.07227165251970291
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "How many Artificial Bamboo Trees were detected?",
+    "cosine": 0.030484480783343315,
+    "softmax": 0.05692021921277046
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Can you show me an image including the bamboo tree with a time stamp",
+    "cosine": 0.012185048311948776,
+    "softmax": 0.047401610761880875
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "In the following video do you see a bamboo tree? The tree might look artificial",
+    "cosine": 0.03866131976246834,
+    "softmax": 0.06177007034420967
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "bamboo tree",
+    "cosine": 0.009109936654567719,
+    "softmax": 0.045966144651174545
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "artificial bamboo tree",
+    "cosine": 0.016146685928106308,
+    "softmax": 0.04931718856096268
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "show me pictures of trees",
+    "cosine": 0.04155254736542702,
+    "softmax": 0.06358205527067184
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "are there any trees that differ from the image at time 24:51",
+    "cosine": 0.030299074947834015,
+    "softmax": 0.056814782321453094
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "How many artificial bamboo trees are in this video",
+    "cosine": 0.03577910363674164,
+    "softmax": 0.06001513823866844
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "how many bamboo trees did you see in the video footage",
+    "cosine": 0.01797802746295929,
+    "softmax": 0.050228673964738846
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "bamboo trees",
+    "cosine": 0.007896147668361664,
+    "softmax": 0.04541158676147461
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "artifical bamboo tree",
+    "cosine": 0.008962556719779968,
+    "softmax": 0.045898448675870895
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Artificial Bamboo Tree",
+    "cosine": 0.016146685928106308,
+    "softmax": 0.04931718856096268
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "how many bamboo tree were there?",
+    "cosine": 0.014421006664633751,
+    "softmax": 0.048473428934812546
+  },
+  {
+    "video": "P16_PrelimRun2_bamboo tree_01-43.mp4",
+    "category": "Artificial bamboo tree",
+    "query": "Show artificial bamboo trees",
+    "cosine": 0.03863339126110077,
+    "softmax": 0.06175282225012779
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "black barrel in video",
+    "cosine": 0.2435915321111679,
+    "softmax": 0.06892193108797073
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "Show me when I encounter black barrels",
+    "cosine": 0.25420746207237244,
+    "softmax": 0.07664112001657486
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "Show me images of black barrels",
+    "cosine": 0.2654935419559479,
+    "softmax": 0.08579789102077484
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "How many black barrel were detected?",
+    "cosine": 0.2737325131893158,
+    "softmax": 0.09316613525152206
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "can you show me all images with a black barrel",
+    "cosine": 0.2390480637550354,
+    "softmax": 0.06586054712533951
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "Can you show me the following items if present in the video:\n1. Bamboo tree\n2. White helmet\n3. Black barrel",
+    "cosine": 0.1340637505054474,
+    "softmax": 0.023050710558891296
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "black barrel",
+    "cosine": 0.24471041560173035,
+    "softmax": 0.06969742476940155
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "Are there any barrels in the footage",
+    "cosine": 0.23812052607536316,
+    "softmax": 0.06525250524282455
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "Show me another view of the black barrel in the fourth image",
+    "cosine": 0.2563852369785309,
+    "softmax": 0.07832849025726318
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "find all black barrels",
+    "cosine": 0.2447882741689682,
+    "softmax": 0.06975169479846954
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "barrel",
+    "cosine": 0.2160993218421936,
+    "softmax": 0.05235525220632553
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "serch for black barrel",
+    "cosine": 0.20355626940727234,
+    "softmax": 0.04618346691131592
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "search for black barrel",
+    "cosine": 0.24252024292945862,
+    "softmax": 0.06818751245737076
+  },
+  {
+    "video": "P16_PrelimRun2_black barrels_01-39.mp4",
+    "category": "Black barrel",
+    "query": "Show black barrels encountered in the tunnel",
+    "cosine": 0.31214994192123413,
+    "softmax": 0.13680528104305267
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "Do you knock down a door while trying to pass through it?",
+    "cosine": 0.14962920546531677,
+    "softmax": 0.10195956379175186
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "Show me if I knock down a door while trying to to pass through it",
+    "cosine": 0.1361868679523468,
+    "softmax": 0.0891350582242012
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "doors",
+    "cosine": 0.13879626989364624,
+    "softmax": 0.09149158000946045
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "Did I knock down a door?",
+    "cosine": 0.16749319434165955,
+    "softmax": 0.12190184742212296
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "knock down a door",
+    "cosine": 0.1450013965368271,
+    "softmax": 0.09734858572483063
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "door",
+    "cosine": 0.1374882012605667,
+    "softmax": 0.09030258655548096
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "Show me photos of doors",
+    "cosine": 0.16180691123008728,
+    "softmax": 0.11516354978084564
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "Show me a door removed from its hinges",
+    "cosine": 0.18095612525939941,
+    "softmax": 0.1394694298505783
+  },
+  {
+    "video": "P16_PrelimRun2_door knockdown_01-29.mp4",
+    "category": "Do you knock down a door while trying to pass through it?",
+    "query": "Doors knocked down inside the tunnel",
+    "cosine": 0.19036416709423065,
+    "softmax": 0.1532278209924698
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Who enters the tunnel before you?",
+    "cosine": 0.2302083820104599,
+    "softmax": 0.026297273114323616
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "which robots enter the initial tunnel before you",
+    "cosine": 0.30634063482284546,
+    "softmax": 0.056305255740880966
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "which robots enter the initial tunnel before you, there are two",
+    "cosine": 0.301607608795166,
+    "softmax": 0.05370238795876503
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "which robots enter the initial tunnel before you, there are two including wheeled at 7:27",
+    "cosine": 0.3301050662994385,
+    "softmax": 0.07140959054231644
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Show me who enters the tunnel before me",
+    "cosine": 0.20769241452217102,
+    "softmax": 0.020995447412133217
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Show me the images of moving objects infront of me at the begining of the video",
+    "cosine": 0.07963483035564423,
+    "softmax": 0.005834157112985849
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "show spot or ATR entering the tunnel before me",
+    "cosine": 0.27330783009529114,
+    "softmax": 0.04046590253710747
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "spot",
+    "cosine": 0.16416096687316895,
+    "softmax": 0.013585338369011879
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "ATR robot",
+    "cosine": 0.18684732913970947,
+    "softmax": 0.01704496331512928
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "can you show me all images with robots outside the tunnel",
+    "cosine": 0.3080897927284241,
+    "softmax": 0.05729877948760986
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "spot robot",
+    "cosine": 0.22021877765655518,
+    "softmax": 0.023797232657670975
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "atr",
+    "cosine": 0.10736000537872314,
+    "softmax": 0.007698161993175745
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "atr robot",
+    "cosine": 0.18684732913970947,
+    "softmax": 0.01704496331512928
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "all terrain robot",
+    "cosine": 0.2186433970928192,
+    "softmax": 0.023425273597240448
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "entering the tunnel",
+    "cosine": 0.2507022023200989,
+    "softmax": 0.03227856382727623
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Spot ATR",
+    "cosine": 0.14157193899154663,
+    "softmax": 0.010838461108505726
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Show me a robot entering the tunnel",
+    "cosine": 0.34124815464019775,
+    "softmax": 0.07982710003852844
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Show me images of a yellow robot",
+    "cosine": 0.16275255382061005,
+    "softmax": 0.013395342044532299
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Show me images of a yellow robot after the 11 minutes mark in the footage",
+    "cosine": 0.19337841868400574,
+    "softmax": 0.018195342272520065
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "Show me any robots that go into the tunnel",
+    "cosine": 0.30496835708618164,
+    "softmax": 0.055537864565849304
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "robots",
+    "cosine": 0.15783309936523438,
+    "softmax": 0.012752311304211617
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "orange robot",
+    "cosine": 0.14960676431655884,
+    "softmax": 0.011745250783860683
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "tunnel entrance robot",
+    "cosine": 0.35993725061416626,
+    "softmax": 0.09623122215270996
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "tunnel entrance with a robot at start of video",
+    "cosine": 0.3413000702857971,
+    "softmax": 0.07986854016780853
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "tunnel entrance with a spot and atr at start of video",
+    "cosine": 0.24837477505207062,
+    "softmax": 0.031535979360342026
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "who enters tunnel before",
+    "cosine": 0.23150165379047394,
+    "softmax": 0.026639578863978386
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "robots enter before",
+    "cosine": 0.2306424081325531,
+    "softmax": 0.02641166001558304
+  },
+  {
+    "video": "P16_PrelimRun2_robots_entering_tunnel_merged.mp4",
+    "category": "Who enters the tunnel before you?",
+    "query": "How many robots did enter the tunnel?",
+    "cosine": 0.32787975668907166,
+    "softmax": 0.06983805447816849
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "any blue barrels in the video",
+    "cosine": 0.1560465395450592,
+    "softmax": 0.04718683287501335
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "any barrels in the video",
+    "cosine": 0.15482555329799652,
+    "softmax": 0.04661419615149498
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "How many blue barrels appear on the video",
+    "cosine": 0.15113767981529236,
+    "softmax": 0.044926442205905914
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "I want to see when blue barrels appears in my view",
+    "cosine": 0.207245334982872,
+    "softmax": 0.07873618602752686
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "How many blue barrels did I detected?",
+    "cosine": 0.21560460329055786,
+    "softmax": 0.08560087531805038
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "show me all images with a blue barrel in them",
+    "cosine": 0.15416693687438965,
+    "softmax": 0.04630819708108902
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Are there any barrels in the video? Show all colours",
+    "cosine": 0.1136818677186966,
+    "softmax": 0.03089110553264618
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Show all cylindrical objects, specifically barrels",
+    "cosine": 0.10605033487081528,
+    "softmax": 0.028621351346373558
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "blue barrel",
+    "cosine": 0.1999610960483551,
+    "softmax": 0.07320476323366165
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Show me all the footage you have of blue barrels, appended one after the other",
+    "cosine": 0.16715174913406372,
+    "softmax": 0.05272907763719559
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Show me all the footage of barrels",
+    "cosine": 0.1670505404472351,
+    "softmax": 0.05267573893070221
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "show me all the blue barrels",
+    "cosine": 0.167368084192276,
+    "softmax": 0.05284327268600464
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "barrels",
+    "cosine": 0.18874895572662354,
+    "softmax": 0.0654403567314148
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "blue barrels",
+    "cosine": 0.1863412708044052,
+    "softmax": 0.06388358026742935
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Please generate me a video summary showing all blue barrels from the full footage",
+    "cosine": 0.154059037566185,
+    "softmax": 0.046258263289928436
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Please generate me a video summary showing all types of barrels from the full footage",
+    "cosine": 0.1556314080953598,
+    "softmax": 0.04699135944247246
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Blue barrel",
+    "cosine": 0.1999610960483551,
+    "softmax": 0.07320476323366165
+  },
+  {
+    "video": "P17_PrizeRun_blue barrel_02-27.mp4",
+    "category": "Blue barrel",
+    "query": "Blue barrels",
+    "cosine": 0.1863412708044052,
+    "softmax": 0.06388358026742935
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "Do you climb any stairs during the run?",
+    "cosine": 0.1585572063922882,
+    "softmax": 0.07369282841682434
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "Show me when I climb any stairs",
+    "cosine": 0.1715349555015564,
+    "softmax": 0.08390481770038605
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "stairs",
+    "cosine": 0.22490446269512177,
+    "softmax": 0.1430763155221939
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "Did I climb any stairs?",
+    "cosine": 0.18994680047035217,
+    "softmax": 0.10086685419082642
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "show me all images with stairs in them",
+    "cosine": 0.15217804908752441,
+    "softmax": 0.06913865357637405
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "show any stairs in the video",
+    "cosine": 0.1922408938407898,
+    "softmax": 0.10320758819580078
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "show me footage of stairs",
+    "cosine": 0.20077919960021973,
+    "softmax": 0.11240692436695099
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "stair",
+    "cosine": 0.21700476109981537,
+    "softmax": 0.13220860064029694
+  },
+  {
+    "video": "P17_PrizeRun_stairs_04-10.mp4",
+    "category": "Do you climb any stairs during the run?",
+    "query": "Show where stairs were encountered",
+    "cosine": 0.24869079887866974,
+    "softmax": 0.18149740993976593
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "query": "is there a wheelbarrow in the video",
+    "cosine": 0.21376626193523407,
+    "softmax": 0.21583576500415802
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "query": "Show me the wheelbarrow",
+    "cosine": 0.21918508410453796,
+    "softmax": 0.22785422205924988
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "query": "where is the blue wheelbarrow",
+    "cosine": 0.24632571637630463,
+    "softmax": 0.29890093207359314
+  },
+  {
+    "video": "P17_PrizeRun_wheelbarrow_merged.mp4",
+    "category": "Blue wheelbarrow",
+    "query": "show me the blue wheelbarrow in the video",
+    "cosine": 0.2313811331987381,
+    "softmax": 0.25740906596183777
+  }
+]
