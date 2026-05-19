@@ -77,7 +77,7 @@ def simple_augment(text: str, label: str, n: int = 2) -> list:
 
 # ── Main loader ───────────────────────────────────────────────────────────────
 def load_intent_dataset_jsonl(
-    path: str = "data/ground_truth.jsonl",
+    path: str = "data/intention_estimation_100.jsonl",
     augment_minority: bool = True,
     oversample: bool = True,
     target_per_class: int = 500,
@@ -105,7 +105,7 @@ def load_intent_dataset_jsonl(
         augmented = []
         majority_count = max(dist.values())
         for item in data:
-            if dist[item["label"]] < majority_count * 0.7:
+            if dist[item["label"]] < majority_count * 0.3:
                 for v in simple_augment(item["text"], item["label"], n=2):
                     augmented.append({"text": v, "label": item["label"]})
         data.extend(augmented)
@@ -116,18 +116,23 @@ def load_intent_dataset_jsonl(
         by_class = {label: [] for label in VALID_LABELS}
         for item in data:
             by_class[item["label"]].append(item)
+            
         balanced = []
         for label, samples in by_class.items():
             if not samples:
                 continue
+            
             if len(samples) < target_per_class:
                 multiplier = (target_per_class // len(samples)) + 1
                 samples = (samples * multiplier)[:target_per_class]
+            else:
+                samples = random.sample(samples, target_per_class)
+                
             balanced.extend(samples)
-        random.shuffle(balanced)
+            
         data = balanced
         dist = Counter(d["label"] for d in data)
-        print(f"[Dataset] After oversampling (target={target_per_class}): {len(data)} — {dict(dist)}")
+        print(f"[Dataset] Balanced distribution (target={target_per_class}): {dict(dist)}")
 
     random.shuffle(data)
     n = len(data)
