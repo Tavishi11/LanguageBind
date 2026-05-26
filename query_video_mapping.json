@@ -1,0 +1,243 @@
+{
+  "videos": {
+    "P14_PrizeRun_drill_merged.mp4": {
+      "participant_video": "P14_Text",
+      "ground_truth": "2",
+      "category": "Drills",
+      "queries": [
+        "how many drills are there",
+        "How many drills did you observe?",
+        "What timestamps did are drills seen in the video",
+        "How many drills",
+        "Are there any drill-like objects in the scene? If so provide a time stamp. Provide your reasoning.",
+        "How many drills are seen in the journey?",
+        "how many fire extinguisher and drills in the video?",
+        "How many orange drills are present and at what time does the first drill appear",
+        "Give me a timestamp for the first orange drill that appears in the footage",
+        "Where in the video stream do you see a drill, if there is a drill.",
+        "how many drills were there?",
+        "how many drill in this video",
+        "How many drills can be seen in the video?",
+        "How many drills were detected?",
+        "tell me how many drills do you see and where are they. are they in the same space?",
+        "In the video footage how many orange drills were observed"
+      ]
+    },
+    "P14_PrizeRun_fire_extinguisher_merged.mp4": {
+      "participant_video": "P14_Text",
+      "ground_truth": ">2",
+      "category": "Fire Extinguisher",
+      "queries": [
+        "how many fire Extinguishers are there",
+        "How many fire extinguishers did you observe?",
+        "How many blue rope bundles are in the video",
+        "how confident are you there are three?",
+        "How many fire extinguishers were seen",
+        "List every red object in order they are seen",
+        "how many times does a fire extinguisher appear in the journey?",
+        "are they are fire extinguishers in the video? If so provide a time stamp",
+        "how many fire extinguishers are in the video and what are their timestamps",
+        "How many fire extinguishers are present in the footage",
+        "fire extinguisher",
+        "How many fire extinguishers",
+        "How far into the video do you see a fire extinguisher",
+        "tell me how many fire extinguishers do you see and where are they",
+        "In the video footage how many fire extinguishers were observed",
+        "how many fireextinguishers?",
+        "How many Fire Extinguisher in the video",
+        "How many fire extinguishers were there?",
+        "How many fire extinguishers were detected?"
+      ]
+    },
+    "P14_PrizeRun_path blocked by rocks_00-00.mp4": {
+      "participant_video": "P14_Text",
+      "ground_truth": "Yes",
+      "category": "Do you encounter a path blocked by rocks?",
+      "queries": [
+        "Do you encounter a path blocked by rocks?",
+        "Do I encounter a path blocked by rocks?",
+        "Were any paths blocked by rocks",
+        "Did a robot encountered a path blocked by rocks?",
+        "how many times do you encounter rocks blocking the path",
+        "do I get blocked by rocks or climb stairs",
+        "do I get blocked by rocks and turn around during the video?",
+        "is there any path blocked by rocks?",
+        "Do you encounter a path blocked by rocks? And how many rocks",
+        "Is there a path blocked by rocks",
+        "Was the path blocked at any point? If so by what?",
+        "What blocked the path? Was it rocks?"
+      ]
+    },
+    "P14_PrizeRun_three-way junction_03-57.mp4": {
+      "participant_video": "P14_Text",
+      "ground_truth": "Middle",
+      "category": "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+      "queries": [
+        "In the first three-way junction you get inside the tunnel, which direction do you choose to explore?",
+        "not which one i should choose, but which one was chosen in the video",
+        "but in the video, in the first 3 way junction, which direction was travelled",
+        "In the first three way junction I get inside the tunnel, which direction do I choose to explore?",
+        "Explain me what happens at the first three way junction that I encounter after getting inside the tunnel?",
+        "which direction did I go at the first three way junction",
+        "In which way the robot turned at the first 3 way junction?",
+        "When the three-way junction is encountered, which tunnel is chosen?",
+        "Is it the tunnel on the left, right or middle",
+        "which way the robot goes in the first three-way junction",
+        "What time does the main junction with three seperate tunnels appear in the video",
+        "Which way do I go at the three way junction",
+        "at which frame did you encounter the three-way junction",
+        "At the first junction which direction, (left, centre, right) was taken?",
+        "why should I take the left path to explore the tunnel? what can you see at the junction? any blockage?"
+      ]
+    },
+    "P16_PrelimRun2_bamboo tree_01-43.mp4": {
+      "participant_video": "P16_Gallery",
+      "ground_truth": "1",
+      "category": "Artificial bamboo tree",
+      "queries": [
+        "Artificial Bamboo Tree in video",
+        "Show me when I encounter artificial bamboo trees",
+        "Show me images of artificial trees",
+        "Show me images of different artificial trees",
+        "How many Artificial Bamboo Trees were detected?",
+        "Can you show me an image including the bamboo tree with a time stamp",
+        "In the following video do you see a bamboo tree? The tree might look artificial",
+        "bamboo tree",
+        "artificial bamboo tree",
+        "show me pictures of trees",
+        "are there any trees that differ from the image at time 24:51",
+        "How many artificial bamboo trees are in this video",
+        "how many bamboo trees did you see in the video footage",
+        "bamboo trees",
+        "artifical bamboo tree",
+        "Artificial Bamboo Tree",
+        "how many bamboo tree were there?",
+        "Show artificial bamboo trees"
+      ]
+    },
+    "P16_PrelimRun2_black barrels_01-39.mp4": {
+      "participant_video": "P16_Gallery",
+      "ground_truth": ">2",
+      "category": "Black barrel",
+      "queries": [
+        "black barrel in video",
+        "Show me when I encounter black barrels",
+        "Show me images of black barrels",
+        "How many black barrel were detected?",
+        "can you show me all images with a black barrel",
+        "Can you show me the following items if present in the video:\n1. Bamboo tree\n2. White helmet\n3. Black barrel",
+        "black barrel",
+        "Are there any barrels in the footage",
+        "Show me another view of the black barrel in the fourth image",
+        "find all black barrels",
+        "barrel",
+        "serch for black barrel",
+        "search for black barrel",
+        "Show black barrels encountered in the tunnel"
+      ]
+    },
+    "P16_PrelimRun2_door knockdown_01-29.mp4": {
+      "participant_video": "P16_Gallery",
+      "ground_truth": "Yes",
+      "category": "Do you knock down a door while trying to pass through it?",
+      "queries": [
+        "Do you knock down a door while trying to pass through it?",
+        "Show me if I knock down a door while trying to to pass through it",
+        "doors",
+        "Did I knock down a door?",
+        "knock down a door",
+        "door",
+        "Show me photos of doors",
+        "Show me a door removed from its hinges",
+        "Doors knocked down inside the tunnel"
+      ]
+    },
+    "P16_PrelimRun2_robots_entering_tunnel_merged.mp4": {
+      "participant_video": "P16_Gallery",
+      "ground_truth": "ATR, Spot",
+      "category": "Who enters the tunnel before you?",
+      "queries": [
+        "Who enters the tunnel before you?",
+        "which robots enter the initial tunnel before you",
+        "which robots enter the initial tunnel before you, there are two",
+        "which robots enter the initial tunnel before you, there are two including wheeled at 7:27",
+        "Show me who enters the tunnel before me",
+        "Show me the images of moving objects infront of me at the begining of the video",
+        "show spot or ATR entering the tunnel before me",
+        "spot",
+        "ATR robot",
+        "can you show me all images with robots outside the tunnel",
+        "spot robot",
+        "atr",
+        "atr robot",
+        "all terrain robot",
+        "entering the tunnel",
+        "Spot ATR",
+        "Show me a robot entering the tunnel",
+        "Show me images of a yellow robot",
+        "Show me images of a yellow robot after the 11 minutes mark in the footage",
+        "Show me any robots that go into the tunnel",
+        "robots",
+        "orange robot",
+        "tunnel entrance robot",
+        "tunnel entrance with a robot at start of video",
+        "tunnel entrance with a spot and atr at start of video",
+        "who enters tunnel before",
+        "robots enter before",
+        "How many robots did enter the tunnel?"
+      ]
+    },
+    "P17_PrizeRun_blue barrel_02-27.mp4": {
+      "participant_video": "P17_Video",
+      "ground_truth": "2",
+      "category": "Blue barrel",
+      "queries": [
+        "any blue barrels in the video",
+        "any barrels in the video",
+        "How many blue barrels appear on the video",
+        "I want to see when blue barrels appears in my view",
+        "How many blue barrels did I detected?",
+        "show me all images with a blue barrel in them",
+        "Are there any barrels in the video? Show all colours",
+        "Show all cylindrical objects, specifically barrels",
+        "blue barrel",
+        "Show me all the footage you have of blue barrels, appended one after the other",
+        "Show me all the footage of barrels",
+        "show me all the blue barrels",
+        "barrels",
+        "blue barrels",
+        "Please generate me a video summary showing all blue barrels from the full footage",
+        "Please generate me a video summary showing all types of barrels from the full footage",
+        "Blue barrel",
+        "Blue barrels"
+      ]
+    },
+    "P17_PrizeRun_stairs_04-10.mp4": {
+      "participant_video": "P17_Video",
+      "ground_truth": "Yes - successfully",
+      "category": "Do you climb any stairs during the run?",
+      "queries": [
+        "Do you climb any stairs during the run?",
+        "Show me when I climb any stairs",
+        "stairs",
+        "Did I climb any stairs?",
+        "show me all images with stairs in them",
+        "show any stairs in the video",
+        "show me footage of stairs",
+        "stair",
+        "Show where stairs were encountered"
+      ]
+    },
+    "P17_PrizeRun_wheelbarrow_merged.mp4": {
+      "participant_video": "P17_Video",
+      "ground_truth": "1",
+      "category": "Blue wheelbarrow",
+      "queries": [
+        "is there a wheelbarrow in the video",
+        "Show me the wheelbarrow",
+        "where is the blue wheelbarrow",
+        "show me the blue wheelbarrow in the video"
+      ]
+    }
+  }
+}
